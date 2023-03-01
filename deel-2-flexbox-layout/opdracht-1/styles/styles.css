@@ -1,1 +1,55 @@
-/*Schrijf hier jouw CSS*/
+/* Deelopdracht 1 */
+body  {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex-basis: auto;
+}
+
+header, footer {
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-basis: auto;
+  flex-grow: 1;
+
+}
+
+article {
+  display: flex;
+  flex-basis: 60vw;
+  flex-shrink: 0;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+
+nav, aside {
+  flex-basis: 20vw;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+nav {
+  order: 1;
+}
+
+
+/* Deelopdracht 2 */
+
+
+
+/* Deelopdracht 3 */
+
+
+
+/* Deelopdracht 4 */
+
+
+
+/* Deelopdracht 5 */

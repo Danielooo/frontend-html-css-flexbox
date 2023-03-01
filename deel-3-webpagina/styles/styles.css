@@ -1,1 +1,137 @@
 /*Schrijf hier jouw css*/
+/*Beige 242, 243, 217 */
+/*Buff 220, 158, 130 */
+/*Old Rose 193, 110, 112*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+  font-weight: lighter;
+  background-color: #F2F3D9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  /*border: 2px solid red;*/
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-width: 400px;
+  height: 100px;
+
+  justify-content: space-between;
+
+  background-color: #151E3F;
+
+  /*border: 2px dotted white;*/
+}
+
+.home {
+  font-size: larger;
+  font-weight: bold;
+  align-self: center;
+  color: white;
+  width: 150px;
+  padding: 20px;
+  text-transform: uppercase;
+
+  /*border: 2px solid pink;*/
+}
+
+.links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+
+  /*border: 2px solid orange;*/
+}
+
+.links > p {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  padding: 40px;
+
+  /*border: 2px solid blue;*/
+}
+
+.title-and-subtitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+
+  /*border: 2px solid orange;*/
+
+}
+
+h1 {
+  /*border: 2px dotted black;*/
+}
+
+h3 {
+  /*border: 2px dotted red;*/
+}
+
+
+
+.blocks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+  flex-shrink: 1;
+
+  /*border: 2px solid grey;*/
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+
+
+  background-color: #C16E70;
+  flex-basis: 260px;
+  max-width: 280px;
+  min-height: 350px;
+  flex-shrink: 1;
+  padding: 15px;
+
+  border-radius: 10px;
+
+  /*border: 2px dotted black;*/
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 150px;
+  align-items: flex-end;
+  flex-shrink: 1;
+
+  /*border: 2px solid yellow;*/
+}

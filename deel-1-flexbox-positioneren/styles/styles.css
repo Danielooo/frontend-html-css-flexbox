@@ -1,1 +1,83 @@
-/*Schrijf hier jouw CSS*/
+/* O P D R A C H T  1 */
+
+
+/* Deelopdracht 1 */
+.antwoord-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* Deelopdracht 2 */
+.antwoord-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.antwoord-2 li {
+  display: flex;
+  flex: 1;
+}
+
+
+/* Deelopdracht 3 */
+.antwoord-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.antwoord-3-top-left {
+  align-self: flex-start;
+}
+
+
+.antwoord-3-bottom-right {
+  align-self: flex-end;
+}
+
+/* Deelopdracht 4 */
+.antwoord-4 {
+  display: flex;
+  gap: 10px 10px;
+  flex-wrap: wrap;
+}
+
+
+/* Deelopdracht 5 */
+.antwoord-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.antwoord-5 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ik snap niet waarom dit niet werkt. Heb daarom gekozen voor 'gap'*/
+  gap: 50px 30px;
+}
+
+
+.antwoord-5-left {
+  /*border: 5px solid red;*/
+  align-items: flex-start;
+}
+
+.antwoord-5-center {
+  align-items: center;
+}
+
+.antwoord-5-right {
+  align-items: flex-end;
+}
+
+
+
+
+
+
